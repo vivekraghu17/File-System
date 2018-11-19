@@ -67,15 +67,16 @@ Using this File System
 
 Clone this repository
 
-$ git clone https://github.com/vivekraghu17/MyFS
-Cd into the folder 'MyFS' and mount the filesystem using the makefile
+$ git clone https://github.com/vivekraghu17/File-System-/vfs
+Cd into the folder 'vfs' and mount the filesystem using the makefile
 
-$ cd MyFS
+$ cd vfs
 $ make
 To view the error logs of fuse and check for memory leaks / errors, run the following commands
 
-$ cd MyFS
-$ make debugrun
+$ cd vfs
+$ make 
+Open new terminal let the old terminal be running 
 cd into the mountpoint which is present at ~/Desktop/mountpoint and use the filesystem!
 
 $ cd ~/Desktop/mountpoint
